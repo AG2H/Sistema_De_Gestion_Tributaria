@@ -55,12 +55,14 @@ Todo lo de esta lista **no se tocó ni se rellenó** en `informe_corregido.odt`:
 5. **Pruebas sin cobertura explícita:** RF03, RF10, RF12 y RNF08 no tienen una prueba asociada en la sección 16.
 6. **P13/P14** («descarga ajena denegada») están asociadas a RF11/RNF05, pero lo que prueban es aislamiento (RNF01).
 7. **Tablas:** todas las filas de las 17 tablas tienen el mismo número de celdas; no encontré filas desalineadas. No pude revisar anchos de columna visualmente (no hay LibreOffice).
-8. **«HDU»:** se usa sin definir. No inventé su significado; confirmar y expandirlo en el primer uso.
+8. **«HDU»:** se usa sin definir. El archivo se llama `HDU_Inacap` y su hoja principal «1.Historias de Usuario», así que probablemente es «Historias de Usuario»; el Excel no lo expande, por eso no lo escribí. Confirmar y definirlo en el primer uso.
 9. **«Actualización anual»** en sección 11: el video dice «actualización constante» (ver `analisis_entrevista_vs_informe.md`).
 
 ## E. Datos por confirmar con el cliente o la contraparte
 - Decisiones **D01–D12** (cálculos, catálogos, formatos, clave de actualización, baja local, documento histórico).
-- **¿Se debe cargar directamente desde una declaración jurada?** El video lo menciona; el informe solo cubre monto y factor.
+- **Carga «desde la declaración jurada».** El Excel indica que la carga masiva de montos corresponde a la **DJ 1948** (A20, A42), así que RF07/HU05 ya la cubren; falta decirlo explícitamente en el informe. Confirmar además si el cliente espera leer directamente el PDF de la DJ (hoy fuera de alcance).
+- **El log «detallado al final del HDU» (A43) no existe en el Excel.** Pedir su especificación.
+- **Restricciones del proyecto** (HDU, A29–A35): vacías. Confirmar si existen restricciones administrativas o técnicas.
 - Volúmenes, sistemas existentes, infraestructura, presupuesto, política de acceso y año tributario.
 - Plazo de retención del archivo histórico, y si se conserva el original o una reconstrucción.
 - Metas propuestas: p95 ≤2 s con 10.000 registros (RNF04), restauración ≤60 min y pérdida tolerable de 24 h (RNF05), margen del 20 %.

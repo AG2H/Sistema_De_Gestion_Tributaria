@@ -22,11 +22,11 @@ Fuente: `entrevista_leiva_tiempos.txt` (transcripción propia con faster-whisper
 | Almacenamiento anual; se pueden pedir DJ de años anteriores (03:14–03:36) | N5, O4, RF11, RNF09, HU06, D12 |
 
 ## 2. Lo que el video dice y el informe no refleja bien
-1. **Tres modos de entrada, no dos.** El video dice que se requiere cargar «por monto, por factor o directamente de una declaración jurada» (02:41–02:50). El informe cubre monto (RF07) y factor (RF06), y vincula fuentes (RF12), pero **no tiene un RF/HU para ingresar directamente desde una DJ**. Hay que confirmar con la contraparte si es un requisito.
+1. **«Por monto, por factor o directamente de una declaración jurada» (02:41–02:50).** El informe cubre monto (RF07) y factor (RF06). Al revisar el Excel (A3), la carga masiva de montos es justamente la de la **DJ 1948** («Carga de archivo calificaciones masivas (Montos – DJ1948)», hoja *Objetivo y alcance*, A20; y A42 «carga externa de la DJ 1948»). Es decir, la entrada «desde la DJ» sí está cubierta por RF07/HU05, **pero el informe no lo dice con esas palabras** (D03 menciona la DJ1948 solo para fijar el año). *Corrijo así lo que había escrito antes: no es un requisito faltante, es una relación que conviene dejar explícita.* Sigue pendiente confirmar si el cliente espera otro modo de entrada directo desde el PDF de la DJ.
 2. **«Anual» frente a «constante».** El informe presenta «actualización anual» como petición del cliente (sección 11). En el video, el proceso tributario es anual y el almacenamiento es anual, pero lo que se pide es «actualización constante» (01:14–01:20) y gestión «durante todo el año» (00:18–00:35). Conviene ajustar el texto.
 3. **Frecuencia de carga.** Los emisores informan **una vez al año** (02:08–02:16). Eso sugiere cargas masivas estacionales, relevante para volúmenes y para RNF04. El informe no lo menciona.
 4. **Roles.** El video habla de «corredores» como usuarios. El supervisor, el auditor y el administrador son una **propuesta del equipo**, no del video; el informe los lista como «actores» sin marcarlo.
-5. **Quién habla.** Se presenta como «Especialista de Proyectos de Implementación en Nuam» (00:08–00:13). El informe lo nombra («Eduardo Leiva») pero no registra su cargo. Verificar la ortografía del apellido (el archivo dice *Leiva*; Whisper escribió *Leyva*).
+5. **Quién habla.** Se presenta como «Especialista de Proyectos de Implementación en Nuam» (00:08–00:13). El informe lo nombra («Eduardo Leiva») pero no registra su cargo. La ortografía **Leiva** queda confirmada por el Excel: hoja *Control de Versiones*, Autor = «Eduardo Leiva Palomera», Empresa solicitante = «nuam». Whisper escribió «Leyva» y «Noam», que son errores de reconocimiento.
 
 ## 3. Lo que el informe afirma y el video **no** respalda
 Estos puntos vienen del HDU [A3], de la clase o son inferencias del equipo. El informe los marca como tales en general, pero conviene no atribuirlos a V2:
@@ -46,6 +46,30 @@ Estos puntos vienen del HDU [A3], de la clase o son inferencias del equipo. El i
 | `V2, 02:42–03:33` | PDF no uniformes y años anteriores | 02:54–03:36 | El final cortaba la última frase (termina 03:36) |
 | `V2, 03:02–03:33` | Recuperar DJ de años anteriores | 03:03–03:36 | Igual: sugerido 03:03–03:36 |
 | `Vimeo, 03:45` | Duración | 03:44 (224,6 s) | Calza |
+
+## 4b. Frente al Excel HDU_Inacap (A3): verificación de las citas del informe
+Revisé las 8 hojas del archivo `HDU_Inacap (2).xlsx` y comprobé las citas que el informe hace a A3.
+
+| Cita del informe | Qué dice el Excel | Resultado |
+|---|---|---|
+| HU01 «A3, filas 5/15» | Fila 5 = Mantenedor (filtros, grilla); fila 15 = columna de fuente de ingreso | Calza |
+| HU02 «filas 6–8», HU03 «fila 9», HU04 «fila 10», HU05 «filas 11–14» | 6 Ingreso de calificación; 7 montos; 8 Calcular; 9 factores; 10 Modificar/eliminar; 11–14 cargas masivas y archivo | Calza |
+| D01 «K8/K9; Flujo A19: suma 8–16 frente a 8–19» | K8 y K9: «suma del factor 8 al 16 no debe superar 1»; Flujo A19: «suma de los factores del 8 al 19 ≤ 1» | **Confirmada la contradicción** |
+| D02 «29 campos frente a 30 códigos entre 8 y 37» | K7: «29 campos»; hoja Archivo: Factor 8 … Factor 37 (30 filas) | Confirmada |
+| D03 «DJ1948, DJ1949, DJ1922 y certificados 70/44» | Homologación: «Cert 70 / 1948» y «Certificado 44 / 1922»; Tipos: «DJ 1949» | Confirmada |
+| D05 «E21 remite a Q9; la secuencia sugiere T9» | Tipos: E21 → `Q9` y E22 → `U9` (salta de Q a U) | Consistente con lo observado (no verifiqué toda la columna) |
+| D06 «largo 9 y un entero/ocho decimales» | Archivo: Largo 9; «1 entero, 8 decimales» | Confirmada |
+| D07 «formato de fecha distinto del ejemplo» | Archivo: formato `DD-MM-AAAA`; ejemplo `2023-12-12` | Confirmada |
+| D08 «K14, clave no definida» | K14: «Se debe considerar una llave para actualizar» | Confirmada |
+| D09 «K6, rango de secuencia» | K6: «secuencia evento superior a los 10.000» | Confirmada |
+| D11 «K12 repite factores» | K12: contexto y evento copiados de la fila de factores | Confirmada |
+| «Precedencia local», «log», «ingreso por distintos orígenes» | Hoja *Objetivo y alcance* A37–A43 | Calza |
+
+**Cosas del Excel que el informe no recoge o que conviene avisar:**
+- A43 dice que el log «está detallado al final del HDU», pero **ese detalle no existe en el archivo** (la última hoja es *Flujo de proceso*). Es una consulta más para el cliente.
+- La sección **Restricciones** (A29–A35) está **vacía**, y *Control de Versiones* tiene Fecha y Versión sin completar. Sirve para la Actividad 1 de la guía (restricciones administrativas): hoy no hay datos del cliente.
+- En la hoja de historias, el número de escenario se repite (el **9** aparece dos veces: filas 12 y 13) y el 8 está después del 5; no afecta al informe, pero el equipo debe tener cuidado si cita «escenario N».
+- El Excel sí marca el proyecto como **CORE**.
 
 ## 5. Frente a la guía (¿lo que pide el video está cubierto por lo que pide la guía?)
 - El video pide **analizar requerimientos, identificar riesgos y proponer un diseño técnico**: la guía lo bajó a RF/RNF, HU, metodologías y seguridad. El informe cubre las cuatro actividades.
