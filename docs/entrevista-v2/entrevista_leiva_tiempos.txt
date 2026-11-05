@@ -1,0 +1,45 @@
+[00:08–00:13] Hola, soy Eduardo[?] Leyva[?], Especialista de Proyectos de Implementación en Noam[?] y hoy quiero presentarles
+[00:13–00:18] un proyecto clave para optimizar el proceso tributario anual que lleva al cabo[?] nuestros
+[00:18–00:24] corredores. Como saben, la gestión y actualización de las calificaciones tributarias es fundamental
+[00:24–00:29] para asegurar el cumplimiento tributario y mejorar la eficiencia de la administración de datos
+[00:29–00:35] durante todo el año. Actualmente, enfrentamos el desafío de manejar esta información de
+[00:35–00:40] manera manual, lo que genera dificultades para generar datos provenientes de distintos[?] fuentes
+[00:40–00:45] de información como declaraciones juradas y otros archivos de factores que afectan las
+[00:45–00:50] calificaciones tributarias. Nuestro objetivo con este proyecto es desarrollar un mantenedor
+[00:50–00:55] de calificaciones tributarias robustos y que de[?] fácil uso, para que permita cargar, modificar
+[00:55–01:00] y gestionar las calificaciones basadas en montos convertidosas[?] en factores en los
+[01:00–01:04] procesos tributarios. Este sistema deberá incluir funcionalidades
+[01:04–01:09] desclaves[?] como despliegue de búsqueda deficientes[?] de calificaciones, creación, modificación
+[01:09–01:14] y eliminación de registros, carga de datos manuales masivas mediante archivos específicos
+[01:14–01:20] y sobre todo garantizar la confiabilidad y la actualización constante de esta información.
+[01:20–01:25] Para ello, ustedes deberán analizar los detalles de los requerimientos, identificar
+[01:25–01:30] riesgos asociados y proponer diseño de solución técnica que permiten integrar
+[01:30–01:33] diferentes fuentes de información de manera segura y eficiente.
+[01:33–01:36] Las expectativas de la empresa son claras.
+[01:36–01:38] Queremos un sistema que optimice la gestión tributaria,
+[01:39–01:40] facilite el trabajo de nuestros corredores
+[01:40–01:43] y asegure la integridad de trazabilidad de los datos,
+[01:43–01:45] reduciendo tiempos y errores.
+[01:46–01:47] Quedamos atento a sus propuestas
+[01:47–01:49] y muchas gracias por su colaboración.
+[01:56–01:58] Las fuentes externas de este proyecto son públicas,
+[01:58–02:01] son[?] información que hoy[?] día los corredores manejan
+[02:01–02:04] porque los emisores que emiten las acciones
+[02:04–02:07] ellos[?] reciben dividendos y los reparten entre sus diferentes accionistas.
+[02:08–02:12] Entonces[?] esa información ellos la transmiten una vez al año y la hacen llegar
+[02:12–02:16] hacia los corredores para que el sistema haga bidía[?] al cálculo de
+[02:16–02:20] calificaciones, por ello es que la fuente de información es[?] diversa porque tanto el
+[02:20–02:23] servicio de impuesto interno como una empresa hace la declaración de renta
+[02:24–02:27] ellos[?] declaran los dividendos y esa llega como información al servicio
+[02:27–02:31] impuesto interno como una de jota[?], que[?] es lo que pasa que también los
+[02:31–02:36] los[?] corredores reciben recertificados[?] de los emisores para poder opundar[?] en la información
+[02:36–02:41] y que estos sean llevados hacia la NUAM[?] en este caso, que lo que hace es repartirle la[?]
+[02:41–02:46] información en las diferentes calificaciones y es un cálculo de proceso y por eso se requiere
+[02:46–02:50] que sea por monto, por factor o directamente de una declaración jurada.
+[02:54–02:59] Es manual dado que los certificados hoy en día no vienen en un formato específico,
+[02:59–03:03] vienen en un PDF[?] que tiene un orden distinto a la declaración jurada pero trae todos
+[03:03–03:14] los campos. No[?] se puede hoy en día hacer un proceso que sea automático. El almacenamiento
+[03:14–03:23] es anual. Las declaraciones juradas se pueden solicitar años atrás. Algún tema que el
+[03:23–03:27] servicio diga, este[?] cliente tiene que pagar más impuesto y[?] puede decir, no,[?] yo mi declaración
+[03:27–03:33] del año 2023 decía esto a[?] otro. Entonces el corredor de bolsa tiene que ser capaz
+[03:33–03:36] mediante nuestro sistema, extraer nuevamente esa declaración jurada.

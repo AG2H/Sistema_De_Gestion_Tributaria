@@ -1,0 +1,180 @@
+1
+00:00:08,180 --> 00:00:13,880
+Hola, soy Eduardo[?] Leyva[?], Especialista de Proyectos de Implementación en Noam[?] y hoy quiero presentarles
+
+2
+00:00:13,880 --> 00:00:18,520
+un proyecto clave para optimizar el proceso tributario anual que lleva al cabo[?] nuestros
+
+3
+00:00:18,520 --> 00:00:24,440
+corredores. Como saben, la gestión y actualización de las calificaciones tributarias es fundamental
+
+4
+00:00:24,440 --> 00:00:29,920
+para asegurar el cumplimiento tributario y mejorar la eficiencia de la administración de datos
+
+5
+00:00:29,920 --> 00:00:35,680
+durante todo el año. Actualmente, enfrentamos el desafío de manejar esta información de
+
+6
+00:00:35,680 --> 00:00:40,960
+manera manual, lo que genera dificultades para generar datos provenientes de distintos[?] fuentes
+
+7
+00:00:40,960 --> 00:00:45,440
+de información como declaraciones juradas y otros archivos de factores que afectan las
+
+8
+00:00:45,440 --> 00:00:50,480
+calificaciones tributarias. Nuestro objetivo con este proyecto es desarrollar un mantenedor
+
+9
+00:00:50,480 --> 00:00:55,680
+de calificaciones tributarias robustos y que de[?] fácil uso, para que permita cargar, modificar
+
+10
+00:00:55,680 --> 00:01:00,120
+y gestionar las calificaciones basadas en montos convertidosas[?] en factores en los
+
+11
+00:01:00,120 --> 00:01:04,000
+procesos tributarios. Este sistema deberá incluir funcionalidades
+
+12
+00:01:04,000 --> 00:01:09,440
+desclaves[?] como despliegue de búsqueda deficientes[?] de calificaciones, creación, modificación
+
+13
+00:01:09,440 --> 00:01:14,820
+y eliminación de registros, carga de datos manuales masivas mediante archivos específicos
+
+14
+00:01:14,820 --> 00:01:20,380
+y sobre todo garantizar la confiabilidad y la actualización constante de esta información.
+
+15
+00:01:20,860 --> 00:01:25,260
+Para ello, ustedes deberán analizar los detalles de los requerimientos, identificar
+
+16
+00:01:25,260 --> 00:01:30,340
+riesgos asociados y proponer diseño de solución técnica que permiten integrar
+
+17
+00:01:30,340 --> 00:01:33,160
+diferentes fuentes de información de manera segura y eficiente.
+
+18
+00:01:33,780 --> 00:01:36,060
+Las expectativas de la empresa son claras.
+
+19
+00:01:36,340 --> 00:01:38,860
+Queremos un sistema que optimice la gestión tributaria,
+
+20
+00:01:39,100 --> 00:01:40,920
+facilite el trabajo de nuestros corredores
+
+21
+00:01:40,920 --> 00:01:43,760
+y asegure la integridad de trazabilidad de los datos,
+
+22
+00:01:43,960 --> 00:01:45,300
+reduciendo tiempos y errores.
+
+23
+00:01:46,120 --> 00:01:47,580
+Quedamos atento a sus propuestas
+
+24
+00:01:47,580 --> 00:01:49,240
+y muchas gracias por su colaboración.
+
+25
+00:01:56,130 --> 00:01:58,770
+Las fuentes externas de este proyecto son públicas,
+
+26
+00:01:58,930 --> 00:02:01,690
+son[?] información que hoy[?] día los corredores manejan
+
+27
+00:02:01,690 --> 00:02:04,310
+porque los emisores que emiten las acciones
+
+28
+00:02:04,310 --> 00:02:07,650
+ellos[?] reciben dividendos y los reparten entre sus diferentes accionistas.
+
+29
+00:02:08,150 --> 00:02:12,150
+Entonces[?] esa información ellos la transmiten una vez al año y la hacen llegar
+
+30
+00:02:12,150 --> 00:02:16,350
+hacia los corredores para que el sistema haga bidía[?] al cálculo de
+
+31
+00:02:16,350 --> 00:02:20,730
+calificaciones, por ello es que la fuente de información es[?] diversa porque tanto el
+
+32
+00:02:20,730 --> 00:02:23,790
+servicio de impuesto interno como una empresa hace la declaración de renta
+
+33
+00:02:24,510 --> 00:02:27,330
+ellos[?] declaran los dividendos y esa llega como información al servicio
+
+34
+00:02:27,330 --> 00:02:31,350
+impuesto interno como una de jota[?], que[?] es lo que pasa que también los
+
+35
+00:02:31,350 --> 00:02:36,110
+los[?] corredores reciben recertificados[?] de los emisores para poder opundar[?] en la información
+
+36
+00:02:36,110 --> 00:02:41,750
+y que estos sean llevados hacia la NUAM[?] en este caso, que lo que hace es repartirle la[?]
+
+37
+00:02:41,750 --> 00:02:46,310
+información en las diferentes calificaciones y es un cálculo de proceso y por eso se requiere
+
+38
+00:02:46,310 --> 00:02:50,710
+que sea por monto, por factor o directamente de una declaración jurada.
+
+39
+00:02:54,560 --> 00:02:59,500
+Es manual dado que los certificados hoy en día no vienen en un formato específico,
+
+40
+00:02:59,500 --> 00:03:03,640
+vienen en un PDF[?] que tiene un orden distinto a la declaración jurada pero trae todos
+
+41
+00:03:03,640 --> 00:03:14,830
+los campos. No[?] se puede hoy en día hacer un proceso que sea automático. El almacenamiento
+
+42
+00:03:14,830 --> 00:03:23,050
+es anual. Las declaraciones juradas se pueden solicitar años atrás. Algún tema que el
+
+43
+00:03:23,050 --> 00:03:27,610
+servicio diga, este[?] cliente tiene que pagar más impuesto y[?] puede decir, no,[?] yo mi declaración
+
+44
+00:03:27,610 --> 00:03:33,230
+del año 2023 decía esto a[?] otro. Entonces el corredor de bolsa tiene que ser capaz
+
+45
+00:03:33,230 --> 00:03:36,350
+mediante nuestro sistema, extraer nuevamente esa declaración jurada.
+

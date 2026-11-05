@@ -1,0 +1,19 @@
+Hola, soy Eduardo[?] Leyva[?], Especialista de Proyectos de Implementación en Noam[?] y hoy quiero presentarles un proyecto clave para optimizar el proceso tributario anual que lleva al cabo[?] nuestros corredores. Como saben, la gestión y actualización de las calificaciones tributarias es fundamental para asegurar el cumplimiento tributario y mejorar la eficiencia de la administración de datos durante todo el año. Actualmente, enfrentamos el desafío de manejar esta información de
+
+manera manual, lo que genera dificultades para generar datos provenientes de distintos[?] fuentes de información como declaraciones juradas y otros archivos de factores que afectan las calificaciones tributarias. Nuestro objetivo con este proyecto es desarrollar un mantenedor de calificaciones tributarias robustos y que de[?] fácil uso, para que permita cargar, modificar y gestionar las calificaciones basadas en montos convertidosas[?] en factores en los
+
+procesos tributarios. Este sistema deberá incluir funcionalidades desclaves[?] como despliegue de búsqueda deficientes[?] de calificaciones, creación, modificación y eliminación de registros, carga de datos manuales masivas mediante archivos específicos y sobre todo garantizar la confiabilidad y la actualización constante de esta información. Para ello, ustedes deberán analizar los detalles de los requerimientos, identificar
+
+riesgos asociados y proponer diseño de solución técnica que permiten integrar diferentes fuentes de información de manera segura y eficiente. Las expectativas de la empresa son claras. Queremos un sistema que optimice la gestión tributaria, facilite el trabajo de nuestros corredores
+
+y asegure la integridad de trazabilidad de los datos, reduciendo tiempos y errores. Quedamos atento a sus propuestas y muchas gracias por su colaboración.
+
+Las fuentes externas de este proyecto son públicas, son[?] información que hoy[?] día los corredores manejan porque los emisores que emiten las acciones ellos[?] reciben dividendos y los reparten entre sus diferentes accionistas. Entonces[?] esa información ellos la transmiten una vez al año y la hacen llegar
+
+hacia los corredores para que el sistema haga bidía[?] al cálculo de calificaciones, por ello es que la fuente de información es[?] diversa porque tanto el servicio de impuesto interno como una empresa hace la declaración de renta ellos[?] declaran los dividendos y esa llega como información al servicio impuesto interno como una de jota[?], que[?] es lo que pasa que también los
+
+los[?] corredores reciben recertificados[?] de los emisores para poder opundar[?] en la información y que estos sean llevados hacia la NUAM[?] en este caso, que lo que hace es repartirle la[?] información en las diferentes calificaciones y es un cálculo de proceso y por eso se requiere que sea por monto, por factor o directamente de una declaración jurada.
+
+Es manual dado que los certificados hoy en día no vienen en un formato específico, vienen en un PDF[?] que tiene un orden distinto a la declaración jurada pero trae todos los campos. No[?] se puede hoy en día hacer un proceso que sea automático. El almacenamiento es anual. Las declaraciones juradas se pueden solicitar años atrás. Algún tema que el servicio diga, este[?] cliente tiene que pagar más impuesto y[?] puede decir, no,[?] yo mi declaración
+
+del año 2023 decía esto a[?] otro. Entonces el corredor de bolsa tiene que ser capaz mediante nuestro sistema, extraer nuevamente esa declaración jurada.
